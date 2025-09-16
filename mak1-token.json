@@ -5,7 +5,7 @@
   "network": "BNB Smart Chain",
   "contract": "0x9f833ca55ce0431045098ef12b64da6b33cf1f48",
   "decimals": 18,
-  "totalSupply": "100000000",
+  "totalSupply": "1000000000000",
   "license": "MIT",
   "features": [
     "Infrastructure token for branded smart contracts",
