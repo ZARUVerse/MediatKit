@@ -1,0 +1,48 @@
+{
+  "name": "Arxium – Genesis Relic",
+  "collection": "Arxium Relics",
+  "type": "BEP-721",
+  "network": "BNB Smart Chain",
+  "contract": "0x5f2a2d30559a7b8f12823a953cb3d1b3484b5339",
+  "tokenId": "TBD",
+  "license": "MIT (code only)",
+  "symbolism": [
+    "Represents mythic origin of DAO authority",
+    "Unlocks foundational lore chapters",
+    "Grants ritual-based access to ZARUverse",
+    "Enables staking and relic-based governance"
+  ],
+  "features": [
+    "Redeemable via dApp or APK",
+    "Lore-bound relic with cryptographic weight",
+    "Integrated with DAO voting and staking modules",
+    "Tiered access for future relic expansions"
+  ],
+  "abi": [
+    {
+      "inputs": [],
+      "name": "redeem",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        { "internalType": "address", "name": "owner", "type": "address" }
+      ],
+      "name": "balanceOf",
+      "outputs": [{ "internalType": "uint256", "name": "", "type": "uint256" }],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        { "internalType": "uint256", "name": "tokenId", "type": "uint256" }
+      ],
+      "name": "tokenURI",
+      "outputs": [{ "internalType": "string", "name": "", "type": "string" }],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ]
+}
