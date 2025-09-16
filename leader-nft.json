@@ -1,0 +1,48 @@
+{
+  "name": "Arxium – Leader of DAO",
+  "collection": "Arxium Relics",
+  "type": "BEP-721",
+  "network": "BNB Smart Chain",
+  "contract": "0x57664ea40e95636ed7a4df35f4b31e3656a851cd",
+  "tokenId": 1,
+  "license": "MIT (code only)",
+  "symbolism": [
+    "Represents mythic leadership within ZARUverse",
+    "Grants DAO governance rights",
+    "Unlocks hidden lore chapters",
+    "Enables staking access for ZARU rewards"
+  ],
+  "features": [
+    "Redeemable via dApp or APK",
+    "One-time ritual activation",
+    "Integrated with DAO voting modules",
+    "Lore-bound relic with cryptographic authority"
+  ],
+  "abi": [
+    {
+      "inputs": [],
+      "name": "redeem",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        { "internalType": "address", "name": "owner", "type": "address" }
+      ],
+      "name": "balanceOf",
+      "outputs": [{ "internalType": "uint256", "name": "", "type": "uint256" }],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        { "internalType": "uint256", "name": "tokenId", "type": "uint256" }
+      ],
+      "name": "tokenURI",
+      "outputs": [{ "internalType": "string", "name": "", "type": "string" }],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ]
+}
