@@ -1,0 +1,25 @@
+{
+  "network": {
+    "name": "bnb",
+    "rpcUrl": "https://bsc-dataseed.binance.org/",
+    "chainId": 56
+  },
+  "wallet": {
+    "privateKey": "env:PRIVATE_KEY"
+  },
+  "contracts": {
+    "zaruToken": "0xdac6f0ec5901b3877dc6db23c3882267ba9fabf6",
+    "mak1Token": "0xYourMak1TokenAddress",
+    "dmdToken": "0x8c4c0116d051f6f2ea27e8fa7614c8f799191ab3",
+    "flameNFT": "0xYourFlameNFTAddress",
+    "leaderNFT": "0x57664ea40e95636ed7a4df35f4b31e3656a851cd",
+    "relicNFT": "0x5f2a2d30559a7b8f12823a953cb3d1b3484b5339",
+    "stakingModule": "0xYourStakingContractAddress",
+    "loreModule": "0xYourLoreModuleAddress"
+  },
+  "defaults": {
+    "mintAmountZARU": "100000",
+    "stakeAmountZARU": "50000",
+    "recipient": "0xYourWalletAddress"
+  }
+}
