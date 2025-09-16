@@ -1,0 +1,45 @@
+{
+  "name": "MAKESE",
+  "symbol": "MAK1",
+  "type": "BEP-20",
+  "network": "BNB Smart Chain",
+  "contract": "0x9f833ca55ce0431045098ef12b64da6b33cf1f48",
+  "decimals": 18,
+  "totalSupply": "1000000000000",
+  "license": "MIT",
+  "features": [
+    "Infrastructure token for branded smart contracts",
+    "Protocol-level governance",
+    "Used for deploying NFT and DeFi modules",
+    "Integrated with Makese ecosystem",
+    "Supports ritual-based minting flows"
+  ],
+  "abi": [
+    {
+      "inputs": [],
+      "name": "totalSupply",
+      "outputs": [{ "internalType": "uint256", "name": "", "type": "uint256" }],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        { "internalType": "address", "name": "recipient", "type": "address" },
+        { "internalType": "uint256", "name": "amount", "type": "uint256" }
+      ],
+      "name": "transfer",
+      "outputs": [{ "internalType": "bool", "name": "", "type": "bool" }],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        { "internalType": "address", "name": "owner", "type": "address" }
+      ],
+      "name": "balanceOf",
+      "outputs": [{ "internalType": "uint256", "name": "", "type": "uint256" }],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ]
+}

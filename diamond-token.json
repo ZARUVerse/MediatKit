@@ -1,0 +1,45 @@
+{
+  "name": "Diamond",
+  "symbol": "DMD",
+  "type": "BEP-20",
+  "network": "BNB Smart Chain",
+  "contract": "0x8c4c0116d051f6f2ea27e8fa7614c8f799191ab3",
+  "decimals": 18,
+  "totalSupply": "100000000000000",
+  "license": "MIT",
+  "features": [
+    "Stable utility token for ZARUverse economy",
+    "Used for payments, collateral, and staking",
+    "Treasury-backed issuance",
+    "Integrated with lore-driven DeFi flows",
+    "Supports DAO treasury operations"
+  ],
+  "abi": [
+    {
+      "inputs": [],
+      "name": "totalSupply",
+      "outputs": [{ "internalType": "uint256", "name": "", "type": "uint256" }],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        { "internalType": "address", "name": "recipient", "type": "address" },
+        { "internalType": "uint256", "name": "amount", "type": "uint256" }
+      ],
+      "name": "transfer",
+      "outputs": [{ "internalType": "bool", "name": "", "type": "bool" }],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        { "internalType": "address", "name": "owner", "type": "address" }
+      ],
+      "name": "balanceOf",
+      "outputs": [{ "internalType": "uint256", "name": "", "type": "uint256" }],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ]
+}
